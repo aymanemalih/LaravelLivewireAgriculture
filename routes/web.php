@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('agr', \App\Http\Livewire\Agricultures::class)->name('agriculteurs');
+Route::get('tarif', \App\Http\Livewire\TarifComponent::class)->name('tarif');
 Route::get('parcelles', \App\Http\Livewire\Parcelles::class)->name('parcelles');
 
 
